@@ -19,11 +19,11 @@ function validarPaciente(){
     estadopaciente  = document . getElementbyid('estadoPaciente').value;
 
     //validar campos vacios
-    if(idPaciente === "" || nombrePaciente === "" || apellidoPaciente === "" || direccionPaciente ===""
-    || telefonoPaciente ==="" || correoPaciente === "" || fechaNacimiento === "")
-    {
-
-        alert("REVISE EL FORMULARIO, NO DEBEN HABER CAMPOS VACIOS!!");
+    if(
+      idPaciente === "" || nombrePaciente === "" || apellidoPaciente === "" || direccionPaciente ===""
+    || telefonoPaciente ==="" || correoPaciente === "" || fechaNacimiento === ""
+    ){
+     alert("REVISE EL FORMULARIO, NO DEBEN HABER CAMPOS VACIOS!!");
         return false;
     }
 

@@ -28,8 +28,9 @@ function validarPaciente(){
     }
 
         //VALIDACION DE LONGITUD
-       var cantidad = idPaciente.length;
-       if(cantidad > 12){
+      if (typeof idPaciente !== 'undefined' && idPaciente !== null) {
+    var cantidad = idPaciente.length;
+    if (cantidad > 12){
            alert("El Id del Paciente no puede tener mas de 12 numeros");
            return false;
        }

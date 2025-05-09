@@ -12,7 +12,7 @@ function validarPaciente(){
     idPaciente = document.getElementByid('idPaciente').value;
     nombrePaciente = document . getElementById('nombrePaciente').value;
     apellidoPaciente = document . getElementById('apellidoPaciente').value;
-    DireccionPaciente=document . getElementById('direccionPaciente').value;
+    DireccionPaciente=document . getElementById('DireccionPaciente').value;
     telefonoPaciente = document . getElementById('telefonoPaciente').value;
     correoPaciente = document . getElementById('correoPaciente').value;
     fechaNacimiento = document . getElementById('fechaNacimiento').value;

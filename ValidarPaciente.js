@@ -28,14 +28,14 @@ function validarPaciente(){
     }
 
         //VALIDACION DE LONGITUD
-      if (isNaN(typeof idPaciente !== 'undefined' && idPaciente !== null)) {
+      if(typeof idPaciente !== 'undefined' && idPaciente !== null) {
     var cantidad = idPaciente.length;
     if (cantidad > 12){
            alert("El Id del Paciente no puede tener mas de 12 numeros");
            return false;
        }
     
-    if(isNaN(telefonoPaciente.length === 10)){
+    if(telefonoPaciente.length === 10){
         return true;
     }
  }else{

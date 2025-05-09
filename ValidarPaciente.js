@@ -9,14 +9,14 @@ function validarPaciente(){
     var fechaNacimiento;
    
 
-    idpaciente = document.getElementByid('idPaciente').value;
-    nombrePaciente = document . getElementbyid('nombrePaciente').value;
-    apellidoPaciente = document . getElementbyid('apellidoPaciente').value;
-    DireccionPaciente=document . getElementbyid('direccionPaciente').value;
-    telefonoPaciente = document . getElementbyid('telefonoPaciente').value;
-    correoPaciente = document . getElementbyid('correoPaciente').value;
-    fechaNacimiento = document . getElementbyid('fechaNacimiento').value;
-    estadopaciente  = document . getElementbyid('estadoPaciente').value;
+    idPaciente = document.getElementByid('idPaciente').value;
+    nombrePaciente = document . getElementById('nombrePaciente').value;
+    apellidoPaciente = document . getElementById('apellidoPaciente').value;
+    DireccionPaciente=document . getElementById('direccionPaciente').value;
+    telefonoPaciente = document . getElementById('telefonoPaciente').value;
+    correoPaciente = document . getElementById('correoPaciente').value;
+    fechaNacimiento = document . getElementById('fechaNacimiento').value;
+    estadopaciente  = document . getElementById('estadoPaciente').value;
 
     //validar campos vacios
     if(

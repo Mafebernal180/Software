@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login Books </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../../ProyectoEmpresa/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../../ProyectoEmpresa/css/main.css">
+<!--===============================================================================================-->
+<!--LINKS-->
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+   
+    <link rel="stylesheet" href="../../ProyectoEmpresa/css/stylesmenu.css">
+    <link rel="stylesheet" href="../../ProyectoEmpresa/css/styles.css">
+</head>
+<body style="background-color: #999999;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="login100-more" style="background-image:  url(../proyectoempresa/assets/img/loginregister.jpg);"></div>
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form class="login100-form validate-form" action="controladores/controladoriniciosesion.php" method="post" >
+					<span class="login100-form-title p-b-59">
+						Iniciar Sesion
+						<img class="img-fluid" src="assets/img/logoempresa.jpg" width="150" height="100"/>
+					</span>
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Usuario</span>
+						<input class="input100" type="text" name="nombreUsuario" placeholder="Usuario....">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "correo is requited">
+						<span class="label-input100">Correo usuario</span>
+						<input class="input100" type="text" name="correoUsuario" placeholder="Correo Electronico...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<span class="label-input100">Contrasena</span>
+						<input class="input100" type="password" name="contrasenaUsuario" placeholder="*************">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100">
+						<span class="label-input100">Tipo de usuario</span>
+						<div class="input-group">
+							<select class="custom-select" name="rolUsuario">
+								<option value="USUARIO">Usuario</option>
+								<option value="ADMIN">Administrador</option>
+							</select>
+						</div>
+					</div>
+					<div class="flex-m w-full p-b-33">
+						<div class="contact100-form-checkbox">
+								</span>
+							</label>
+						</div>
+
+
+						<div class="container">
+							<a href="indexpassword.html">Restablecer Contraseña</a>
+						</div>
+
+						
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<input type="submit" value="iniciar sesion" class="login100-form-btn" href="/vista-Menu/menuUsuario.php">
+							<div class="wrap-login100-form-btn"></div>
+							</button>
+						</div>
+
+						<a href="../../ProyectoEmpresa/indexregister.html" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+							Registrate
+							<i class="fa fa-long-arrow-right m-l-5"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<footer class="footer py-4">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+				<div class="col-lg-4 my-3 my-lg-0">
+					<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+					<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+					<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<div class="col-lg-4 text-lg-right">
+					<a class="mr-3" href="#!">Privacy Policy</a>
+					<a href="#!">Terms of Use</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

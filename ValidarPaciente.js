@@ -9,7 +9,7 @@ function validarPaciente(){
     var fechaNacimiento;
    
 
-    idPaciente = document.getElementByid('idPaciente').value;
+    idPaciente = document.getElementById('idPaciente').value;
     nombrePaciente = document . getElementById('nombrePaciente').value;
     apellidoPaciente = document . getElementById('apellidoPaciente').value;
     DireccionPaciente=document . getElementById('DireccionPaciente').value;
@@ -20,7 +20,7 @@ function validarPaciente(){
 
     //validar campos vacios
     if(
-      idPaciente === "" || nombrePaciente === "" || apellidoPaciente === "" || direccionPaciente ===""
+      idPaciente === "" || nombrePaciente === "" || apellidoPaciente === "" || DireccionPaciente ===""
     || telefonoPaciente ==="" || correoPaciente === "" || fechaNacimiento === ""
     ){
      alert("REVISE EL FORMULARIO, NO DEBEN HABER CAMPOS VACIOS!!");
@@ -28,14 +28,14 @@ function validarPaciente(){
     }
 
         //VALIDACION DE LONGITUD
-      if (typeof idPaciente !== 'undefined' && idPaciente !== null) {
+      if (isNaN(typeof idPaciente !== 'undefined' && idPaciente !== null)) {
     var cantidad = idPaciente.length;
     if (cantidad > 12){
            alert("El Id del Paciente no puede tener mas de 12 numeros");
            return false;
        }
     
-    if(telefonoPaciente.length === 12){
+    if(isNaN(telefonoPaciente.length === 10)){
         return true;
     }
  }else{

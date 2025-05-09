@@ -38,9 +38,10 @@ function validarPaciente(){
     if(telefonoPaciente.length === 12){
         return true;
     }
-    else{
+ }else{
         alert ("Verifique el numero del telefono, debe tener 10 caractares.");
         return false;
     }
     
-    }
+}
+    
